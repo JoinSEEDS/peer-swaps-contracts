@@ -12,5 +12,5 @@ swaps_project-prefix
 **/.nyc_output/**
 node_modules
 package-lock.json
-swaps/
+seed-swap
 *.json

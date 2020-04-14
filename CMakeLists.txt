@@ -9,7 +9,7 @@ endif()
 ExternalProject_Add(
    swaps_project
    SOURCE_DIR ${CMAKE_SOURCE_DIR}/src
-   BINARY_DIR ${CMAKE_BINARY_DIR}/swaps
+   BINARY_DIR ${CMAKE_BINARY_DIR}/seed-swap
    CMAKE_ARGS -DCMAKE_TOOLCHAIN_FILE=${EOSIO_CDT_ROOT}/lib/cmake/eosio.cdt/EosioWasmToolchain.cmake
    UPDATE_COMMAND ""
    PATCH_COMMAND ""

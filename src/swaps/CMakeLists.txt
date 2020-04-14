@@ -4,5 +4,5 @@ project(seeds-swap)
 set(EOSIO_WASM_OLD_BEHAVIOR "Off")
 find_package(eosio.cdt)
 
-add_subdirectory(swaps)
-add_subdirectory(revenue)
+add_contract( swaps swaps swaps.cpp)
+target_include_directories( swaps PUBLIC ${CMAKE_SOURCE_DIR}/../include )
